@@ -1,0 +1,5 @@
+dronekit
+picamera
+smbus
+RPi.GPIO
+logging
