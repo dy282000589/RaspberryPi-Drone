@@ -1,9 +1,10 @@
-##Surveillance Drone Project
+**##Surveillance Drone Project**
 
-#Overview
+**#Overview**
+
 This project is to build a surveillance drone using a Raspberry Pi 3 B+. The drone is equipped with a camera for real-time video streaming, various sensors for telemetry data, and a flight controller for autonomous and manual control. The drone can be controlled wirelessly from a laptop, which also receives the video feed and telemetry data.
 
-#Features
+**#Features**
 - Flight Control: Arm, takeoff, land, set velocity, and navigate to GPS coordinates.
 - Camera Handling: Record and stream video.
 - Sensor Integration: Read data from GPS, IMU, and obstacle detection sensors.
@@ -15,14 +16,14 @@ This project is to build a surveillance drone using a Raspberry Pi 3 B+. The dro
 - Telemetry Data Logging: Logging data for analysis.
 
 
-#Install Dependencies:
+**#Install Dependencies:**
 ```
    sudo apt-get update
    sudo apt-get install python3-pip
    pip3 install -r requirements.txt
 ```
 
-#Usage
+**#Usage**
 On the Drone
 ```
    python3 main.py
@@ -33,7 +34,7 @@ On the Laptop
    python3 network/client.py
 ```
 
-#Commands
+**#Commands**
 - TAKEOFF: Arm and take off the drone.
 - LAND: Land the drone.
 - MOVE vx vy vz: Move the drone with specified velocities.
@@ -44,7 +45,8 @@ On the Laptop
 - GET_OBSTACLE: Get obstacle distance.
 - GOTO lat lon alt: Navigate to specified GPS coordinates.
 
-#Direct Control
+**#Direct Control**
+
 Use the following keyboard controls for direct drone movement:
 - W: Move forward
 - S: Move backward
